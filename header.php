@@ -1,6 +1,6 @@
 <html>
 <div class="header">
-  	<a href="Nike" class="logo">Nike</a>
+  	<a href="Nike" class="logo">ATN Toy</a>
   	<div class="header-right">
     	<a class="active" href="#home">Home</a>
     	<a href="#contact">Contact</a>
