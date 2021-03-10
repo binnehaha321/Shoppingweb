@@ -13,6 +13,11 @@ if (!$link) {
     echo "Database connection failed.";
 } else {
      echo "Database connection success.";
+     $id = $_REQUEST["proID"];
+     $name = $_REQUEST["proName"];
+     $cost = $_REQUEST["proCost"];
+     $img = $_REQUEST["proImg"];
+     $desc = $_REQUEST["proDesc"];
 }
 
 
