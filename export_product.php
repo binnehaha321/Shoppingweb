@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
     $host = "ec2-34-201-248-246.compute-1.amazonaws.com";
     $db = "d42h9056e35279";
@@ -25,3 +27,5 @@ while ($row = pg_fetch_row($prod)) { ?>
 
 
 <?php } ?>
+</body>
+</html>
