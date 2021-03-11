@@ -25,5 +25,19 @@ if (!$link) {
     echo $cost;
     echo $img;
     echo $desc;
+    $sql4 = 'INSERT INTO public."Product" (
+        "proID","proName","proCost","proImg","proDesc") VALUES ('."
+        '$id'::character varying,'$name'::character varying,'$cost'::integer,'$img'::character varying,'$desc'::character varying)".
+         'returning "id"';
+
+
+if(pg_query($link, $sql4)){
+    echo "Records added successfully.";
+} else{
+    echo "ERROR: Could not able to execute $sql. " . pg_error($link);
+}
+
+// Close connection
+pg_close($link);
 
 ?>
