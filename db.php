@@ -20,6 +20,10 @@ if (!$link) {
      $img = $_REQUEST["proImg"];
      $desc = $_REQUEST["proDesc"];
 }
-
+    echo $id;
+    echo $name;
+    echo $cost;
+    echo $img;
+    echo $desc;
 
 ?>
