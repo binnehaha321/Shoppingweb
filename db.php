@@ -1,6 +1,6 @@
 
 <?php
-
+/*
 $host = "ec2-34-201-248-246.compute-1.amazonaws.com";
 $db = "d42h9056e35279";
 $port = "5432";
@@ -25,19 +25,37 @@ if (!$link) {
     echo $cost;
     echo $img;
     echo $desc;
-    $sql4 = 'INSERT INTO public."Product" (
-        "proID","proName","proCost","proImg","proDesc") VALUES ('."
-        '$id'::character varying,'$name'::character varying,'$cost'::integer,'$img'::character varying,'$desc'::character varying)".
-         'returning "id"';
 
 
-if(pg_query($link, $sql4)){
-    echo "Records added successfully.";
-} else{
-    echo "ERROR: Could not able to execute $sql. " . pg_error($link);
+?>
+*/
+
+$sql= "Select * from Product";
+$result= mysqli_query($link, $sql);
+$resultcheck=mysqli_num_rows($result);
+if ($resultcheck >0) {
+    echo "<table>";
+    echo "<tr>";
+    $count= 0;
+    while ($row = mysqli_fetch_assoc($result)) {; //vong lap
+        echo '<td>';
+        $image='picture/'.$row['proImg'];
+                echo "<div id ='main'>";
+                echo "<div id = 'center'>";
+                echo"<a href='$proDetail'>";
+                echo "<img src='$image'>";
+                echo $row['proName']. "<br>";
+                echo"</a>";
+                echo $row['proCost']. "<br>";
+                echo "</div>";
+                echo "</div>";
+             $count=$count+1;
+             echo "</td>";
+             if($count==4)
+             {
+                 echo "</tr>";
+             }
+    }
 }
-
-// Close connection
-pg_close($link);
-
+echo "</table>";
 ?>
