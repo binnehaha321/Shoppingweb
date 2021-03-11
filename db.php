@@ -23,13 +23,3 @@ if (!$link) {
 
 
 ?>
-<?php
-$result = pg_query($db,"SELECT * FROM Product");
-echo "<table>";while($row=pg_fetch_assoc($result)){echo "<tr>";
-echo "<td align='center' width='200'>" . $row['proID'] . "</td>";
-echo "<td align='center' width='200'>" . $row['proName'] . "</td>";
-echo "<td align='center' width='100'>" . $row['proCost'] . "</td>";
-echo "<td align='center' width='100'>" . $row['proImg'] . "</td>";
-echo "<td align='center' width='100'>" . $row['proDesc'] . "</td>";
-echo "</tr>";}
-echo "</table>";?>
