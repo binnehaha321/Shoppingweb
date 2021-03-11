@@ -26,5 +26,14 @@ if (!$link) {
     echo $img;
     echo $desc;
 
-
+    // Query data
+    $result = pg_query($link, 'SELECT * FROM Product');
+    if (!$result) {
+        echo "An error occurred.\n";
+        exit;
+    }
+    // Show data
+    while ($row = pg_fetch_assoc($result)) {
+        var_dump($row);
+    }
 ?>
