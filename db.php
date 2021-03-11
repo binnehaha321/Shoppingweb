@@ -7,7 +7,7 @@ $port = "5432";
 $user = "rponamderkkkmc";
 $pass = "105ab42d7801e58387e0c25b8415c697368496699430053faf5d1519a028106c";
 $ssl = "require";
-/*
+
 $link = pg_connect("dbname=$db host=$host port=$port user=$user password=$pass sslmode=$ssl");
 
 if (!$link) {
@@ -23,7 +23,7 @@ if (!$link) {
 
 
 ?>
-*/
+<?php
 $result = pg_query($db,"SELECT * FROM Product");
 echo "<table>";while($row=pg_fetch_assoc($result)){echo "<tr>";
 echo "<td align='center' width='200'>" . $row['proID'] . "</td>";
