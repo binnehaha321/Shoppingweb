@@ -27,7 +27,6 @@ if (isset($_POST['fid']) &&
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
         
-        
     }
 
 mysqli_close($conn);
