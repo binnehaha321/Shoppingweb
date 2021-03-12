@@ -1,9 +1,9 @@
 <?php
 function connectDB() {
-    $servername = "localhost";
-    $username = "khanh";
-    $password = "123";
-    $dbname = "shoppingweb";
+    $servername = "remotemysql.com";
+    $username = "M65RANsqQ5";
+    $password = "suJT86GIGz";
+    $dbname = "M65RANsqQ5";
   
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname);
