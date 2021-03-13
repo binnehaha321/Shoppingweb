@@ -18,8 +18,9 @@
         </div>       
         <?php 
             require'export_img.php';
-      
-        require'footer.php';
+        ?>
+     <?php
+        include'footer.php';
      ?>
 
 </html>
