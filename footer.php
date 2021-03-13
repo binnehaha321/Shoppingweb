@@ -1,4 +1,3 @@
-<html>
 <style>
 #footer {
     font-size: 20px;
@@ -116,4 +115,3 @@
     <div class ="copyright">&copy 2020 COPYRIGHT OF OTABASTORE</div>
 </div>
 </div>
-</html>

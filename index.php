@@ -6,7 +6,7 @@
 </style>
 <!DOCTYPE html>
 <html>
-        <title>OTABASTORE</title>
+        <title>ATN TOY</title>
         <?php 
             require'header.php';
         ?>
