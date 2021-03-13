@@ -19,9 +19,8 @@
         <?php 
             require'export_img.php';
         ?>
-        
      <?php
-        include_once('footer.php');
+        require'footer.php';
      ?>
 
 </html>
