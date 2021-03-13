@@ -1,6 +1,6 @@
 <style>
 #banner img{
-    margin: auto;
+    margin: 10px 155px;
     border-radius: 10px;
 }
 </style>
