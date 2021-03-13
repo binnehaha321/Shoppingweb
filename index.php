@@ -1,6 +1,6 @@
 <style>
 #banner img{
-    margin: 10px 155px;
+    margin: 10px 110px;
     border-radius: 10px;
 }
 </style>
@@ -21,7 +21,7 @@
         ?>
         
      <?php
-        require'footer.php';
+        include_once('footer.php');
      ?>
 
 </html>
