@@ -112,6 +112,6 @@
 </div>
 
 <div id = "copyright">
-    <div class ="copyright">&copy 2020 COPYRIGHT OF OTABASTORE</div>
+    <div class ="copyright">&copy 2020 COPYRIGHT OF ATN TOY</div>
 </div>
 </div>
