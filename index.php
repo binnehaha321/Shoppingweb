@@ -13,12 +13,15 @@
         <?php 
             require'export_cate.php';
         ?>
-    
+        <div id = "banner">
+            <img src="images/banner.jpg"/>
+        </div>       
         <?php 
             require'export_img.php';
         ?>
+        
      <?php
-        include'footer.php';
+        require'footer.php';
      ?>
 
 </html>

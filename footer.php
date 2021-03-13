@@ -1,7 +1,7 @@
 <style>
 #footer {
     font-size: 20px;
-    height: 230px;
+    height: 23px;
     border: solid black;
 }
 
