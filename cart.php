@@ -1,3 +1,30 @@
+<html>
+    <style>
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+span.price {
+  float: right;
+  color: grey;
+}
+
+  .col-25 {
+    margin-bottom: 20px;
+  }
+    </style>
 <div class="col-25">
     <div class="container">
       <h4>Cart
@@ -15,3 +42,4 @@
     </div>
   </div>
 </div>
+</html>
