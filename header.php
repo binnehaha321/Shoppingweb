@@ -47,7 +47,7 @@
             <ul>
                 <li><a href="#" title="Log in">Log In</a></li>
                 <li><a href="#" title="Register">Register</a></li>
-                <li><a href="#" title="Cart">Cart</a></li>
+                <li><a href="cart.php" title="Cart">Cart</a></li>
             </ul>
 </div>
 <div id ="search-bar">
