@@ -88,8 +88,9 @@ $conn = connectDB();
          if ($resultcheck >0) { 
            while ($row = mysqli_fetch_assoc($result)) {;
             $proDetail = "/payment.php?id=" . $row['proId'];
+            echo"<a href='$proDetail'>";
         ?>
-        <p><a href="#"><?php  echo $row['proName']. "<br>";?></a> <span class="price"><?php echo $row['proCost']. "<br>";}}?></span></p>
+        <p><a href="#"><?php  echo $row['proName']. "<br>";?></a> <span class="price"><?php echo $row['proCost']. "<br></a>";}}?></span></p>
         <hr>
         <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
       </div>
