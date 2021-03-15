@@ -34,7 +34,7 @@
 }
 
 #middle {
-    margin: -165px 0px 0px 660px;
+    margin: -155px 0px 0px 660px;
 }
 
 #middle .mid {
