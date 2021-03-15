@@ -33,7 +33,9 @@ $conn = connectDB();
                         echo $row['proName']. "<br>";
                         echo"</a>";
                         echo $row['proCost']. "<br>";
-                        echo "<button onclick='window.location.href='payment.php'>Continue</button>";
+                        echo "<form method='get' action='/payment.php'>
+                            <button type='submit'>Check out</button>
+                            </form>";
                         echo "</div>";
                         echo "</div>";
                      $count=$count+1;
