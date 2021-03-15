@@ -33,6 +33,7 @@ $conn = connectDB();
                         echo $row['proName']. "<br>";
                         echo"</a>";
                         echo $row['proCost']. "<br>";
+                        echo "<button href='payment.php'>Check out</button>";
                         echo "</div>";
                         echo "</div>";
                      $count=$count+1;
