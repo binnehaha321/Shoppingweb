@@ -92,7 +92,7 @@ $conn = connectDB();
         ?>
         <p><a href="#"><?php  echo $row['proName']. "<br>";?></a> <span class="price"><?php echo $row['proCost']. "<br></a>";}}?></span></p>
         <hr>
-        <p>Total <span class="price" style="color:black"><b>360></b></span></p>
+        <p>Total <span class="price" style="color:black"><b>360</b></span></p>
       </div>
     </div>
   </div>
